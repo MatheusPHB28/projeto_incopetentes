@@ -1,11 +1,109 @@
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
 *{ 
     margin: 0;
     box-sizing: border-box;
 }
-
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 main{
     padding: 0px;
 }
 
+.nave{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image:url(imagens/ray.jpg);
+   
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+   
+}
+
+.itens {
+    justify-content: space-between;
+    padding: 10px;
+    margin: 40px;
+}
+
+.titulo{
+    font-size: 35px;
+    padding: 20px;
+}
+
+.titulo2{
+    
+    font-size: 35px;
+    padding: 20px;
+}
+
+.titulop {
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+}
+.ptitulo {
+    font-size: 50px;
+    font-family: 'roboto', sans-serif;
+    padding: 15px;
+}
+
+.prods{
+    font-size: 30px;
+    display: flex;
+    margin: auto;
+}
+.main {
+
+}
+
+.grade {
+    display: grid;
+    align-items: end;
+    grid-template-columns: repeat(auto-fill,minmax (300px,lfr));
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.prodtit{
+
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.vendas {
+    
 
 
+}
+
+.vendas img {
+    width: 400px;
+    height: 400px;
+}
+
+.textprod {
+font-size: 20px;
+}
+
+.botao {
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+
+}

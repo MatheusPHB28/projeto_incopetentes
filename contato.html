@@ -24,38 +24,48 @@
 
             <li class="itens">
 
-                <a href="carrinho.html">Carrinho</a></li>
+                <a href="">Carrinho</a></li>
 
             <li class="itens">
 
-                <a href="index.html">Página inicianal</a></li>
+                <a href="index.html">Página inicial</a></li>
 
         </ul>
     </nav>
-    <h1 class="titulo" >Olá seja muito bem vindo(a) Pokémon-SENAI</h1>
     </header>
 
     <main>
+        <h1 class="titulo" >Olá, seja muito bem vindo(a) Pokémon-SENAI!</h1>
+        <div><h2 class="letra" style="font-size: 30px;">Contato:</h2></div>
+        <fieldset>
+            <legend><h2>Campo de Preenchimento</h2></legend>
+            <p style="font-size: 20px;"><strong>Todos os campos com * precisam ser preenchidos</strong></p>
+            <h3><label for="nome">Nome: *</label></h3>
+            <input type="text" name="nome" id="nome" required>
+            <br>
 
-        <h2><label>Contato:</label></h2>
-        <p>Todos os campos com * precisam ser preenchidos</p>
-        <h3>Nome *</h3>
-        <input type="text" name="Nome" id="nome" required>
-        <br>
-        <h3>E-Mail *</h3>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <h3>Assunto: * <br>
-            <select name="assunto">
-                <option value="sug">Sugestão</option>
-                <option value="cri">Crítica</option>
-                <option value="duv">Dúvidas</option>
-            </select>
-        </h3>
-        <textarea rows="5" cols="50"></textarea>
-        <br>
-        <input type="button" value="Enviar">
+            <h3><label for="email">E-Mail: *</label></h3>
+            <input type="email" name="email" id="email" required>
+            <br>
 
+            <h3><label for="assunto">Assunto: *</label><br>
+                <select name="assunto">
+                    <option value="sug">Sugestão</option>
+                    <option value="cri">Crítica</option>
+                    <option value="duv">Dúvidas</option>
+                </select>
+            </h3>
+
+            <textarea placeholder="Digite aqui:" rows="5" cols="50"></textarea>
+            <br>
+            <input type="button" value="Enviar">
+        </fieldset>
+
+        <footer>
+            <address>
+                <p>© 2024 SENAI-Pokébolas, Inc.</p>
+            </address>
+        </footer>
     </main>
 </body>
 </html>
