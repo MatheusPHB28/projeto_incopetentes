@@ -17,24 +17,29 @@ main{
     padding: 0px;
 }
 
+.topo {
+    background-color: #ffe545
+}
+
 .nave{
     display: flex;
     align-items: center;
     padding: 10px;
-    background-image:url(imagens/ray.jpg);
+  
    
 }
 
 .lista {
     display: flex;
     align-items: center;
-   
+    margin: auto;
 }
 
 .itens {
     justify-content: space-between;
     padding: 10px;
     margin: 40px;
+    font-size: 30px;
 }
 
 .titulo{
@@ -62,6 +67,7 @@ main{
     font-size: 30px;
     display: flex;
     margin: auto;
+    gap: 30px;
 }
 .main {
 
@@ -70,10 +76,10 @@ main{
 .grade {
     display: grid;
     align-items: end;
-    grid-template-columns: repeat(auto-fill,minmax (300px,lfr));
     gap: 20px;
     padding: 10px;
     margin: 10px;
+    width: 900px;
 }
 .prodtit{
 
@@ -83,9 +89,8 @@ main{
 }
 
 .vendas {
-    
-
-
+    padding: 25px;
+    text-align: center;
 }
 
 .vendas img {
@@ -105,5 +110,17 @@ font-size: 20px;
     font-weight: bold;
 
     
+
+}
+/*Produtos*/
+
+.texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 3px;
+}
+.texto2{ 
+    font-size: 25px;
+    padding: 3px;
 
 }
