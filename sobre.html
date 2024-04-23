@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="index.css">
     <style>
         .principal {
-            padding-bottom: 100px;
-            font-size: 45px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            font-size: 55px;
+            text-align: center;
         }
         .subtitulo {
             font-size: 50px;
+            text-align: center;
         }
         .desc {
             font-size: 30px;
@@ -21,10 +24,24 @@
         .topico {
             font-size: 40px;
             padding-bottom: 30px;
+            text-align: center;
         }
         .subtopico {
             font-size: 30px;
             padding-bottom: 80px;
+            padding-left: 5px;
+        }
+        .quadro {
+            background-color: darkgoldenrod;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 10px 10px darkred;
+            border: outset darkred 15px;
+        }
+        .corpo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
         }
     </style>
 </head>
@@ -62,17 +79,27 @@
     <main style="padding-left: 10px;">
 
         <h1 class="principal">Sobre</h1>
-        <h2 class="subtitulo">Bem Vindo ao SENAI Pokebolas</h2>
-        <p class="desc">O Nosso site é líder de mercado no que se diz respeito à venda de produtos Pokemon™.</p>
 
-        <h2 class="topico">Nossa Missão</h2>
-        <p class="subtopico">Oferecer ampla variedade de produtos (16) da marca para colecionadores que buscam aumentar a sua coleção.</p>
+        <div class="corpo">
+            <div class="quadro">
+                <h2 class="subtitulo">Bem Vindo ao SENAI Pokebolas</h2>
+                <p class="desc">O Nosso site é líder de mercado no que se diz respeito à venda de produtos Pokemon™.</p>
+            <img src="imagens/sobre-pokemon.png">
+            </div>
 
-        <h2 class="topico">Nossos valores</h2>
-        <p class="subtopico">• Integridade</p>
-        <p class="subtopico">• Qualidade</p>
-        <p class="subtopico">• Excelência</p>
-        <p class="subtopico">• Inovação</p>
+            <div class="quadro">
+                <h2 class="topico">Nossa Missão</h2>
+                <p class="subtopico">Nossa missão é trazer a magia de Pokémon para a vida dos treinadores, oferecendo produtos de qualidade e uma experiência que celebra a paixão pela jornada Pokémon.</p>
+            </div>
+
+            <div class="quadro">
+                <h2 class="topico"> Nossos valores</h2>
+                <p class="subtopico">• Integridade</p>
+                <p class="subtopico">• Qualidade</p>
+                <p class="subtopico">• Excelência</p>
+                <p class="subtopico">• Inovação</p>
+            </div>
+        </div>
         <br>
         <address>Rua Coronel Manoel Antônio da Silva</address>
 
