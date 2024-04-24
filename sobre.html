@@ -28,7 +28,7 @@
         }
         .subtopico {
             font-size: 30px;
-            padding-bottom: 80px;
+            padding-bottom: 10px;
             padding-left: 5px;
         }
         .quadro {
@@ -42,6 +42,29 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
+        }
+        .desc-valores {
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+        @media(max-width: 973px) {
+            .corpo {
+                display: flex;
+                flex-direction: column;
+            }
+            .pikachu {
+                margin: auto;
+                display: block;
+            }
+            .itens a {
+                font-size: 25px;
+            }
+            .nave {
+                padding: 0;
+            }
+            main {
+                padding: 0;
+            }
         }
     </style>
 </head>
@@ -76,7 +99,7 @@
     </nav>
     </header>
 
-    <main style="padding-left: 10px;">
+    <main>
 
         <h1 class="principal">Sobre</h1>
 
@@ -84,7 +107,7 @@
             <div class="quadro">
                 <h2 class="subtitulo">Bem Vindo ao SENAI Pokebolas</h2>
                 <p class="desc">O Nosso site é líder de mercado no que se diz respeito à venda de produtos Pokemon™.</p>
-            <img src="imagens/sobre-pokemon.png">
+            <img class="pikachu" src="imagens/sobre-pikachu.png">
             </div>
 
             <div class="quadro">
@@ -92,12 +115,13 @@
                 <p class="subtopico">Nossa missão é trazer a magia de Pokémon para a vida dos treinadores, oferecendo produtos de qualidade e uma experiência que celebra a paixão pela jornada Pokémon.</p>
             </div>
 
-            <div class="quadro">
+            <div style="margin-right: 20px;" class="quadro">
                 <h2 class="topico"> Nossos valores</h2>
-                <p class="subtopico">• Integridade</p>
-                <p class="subtopico">• Qualidade</p>
-                <p class="subtopico">• Excelência</p>
-                <p class="subtopico">• Inovação</p>
+                <h3 class="subtopico">• Integridade</h3>
+                <p class="desc-valores">Comprometidos com a excelência e a autenticidade, garantimos a integridade de cada produto Pokémon em nossa loja.</p>
+                <h3 class="subtopico">• Qualidade</h3>
+                <p class="desc-valores">Na nossa loja, a qualidade é a nossa marca registrada. Cada produto é cuidadosamente selecionado para garantir a autenticidade e a satisfação dos nossos clientes</p>
+                <h3 class="subtopico">• Inovação</h3>
             </div>
         </div>
         <br>
