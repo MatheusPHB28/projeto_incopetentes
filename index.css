@@ -144,3 +144,21 @@ font-size: 20px;
     padding: 25px;
     text-align: center;
 }
+
+/*Responsabilidade*/
+
+@media(max-width: 425px) {
+    li {
+        font-size: 10px;
+    }
+    .prods {
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo {
+        text-align: center;
+    }
+    .ptitulo {
+        text-align: center;
+    }
+}

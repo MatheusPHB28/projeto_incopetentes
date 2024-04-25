@@ -7,8 +7,36 @@
     <link rel="stylesheet" href="index.css">
     <style>
         .campo {
-            background-color: darkblue;
+            background-color: darkgoldenrod;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 10px 10px darkred;
+            border: outset darkred 15px;
         }
+        .nom {
+            margin-bottom: 20px;
+            background-color: transparent;
+            border:none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: white;
+        }
+        .camp-preenchimento {
+            padding-bottom: 15px;
+        }
+        .aviso {
+            padding-bottom: 15px;
+        }
+        .letra {
+            padding-left: 18px;
+        }
+        .topo {
+            border: darkred solid 10px;
+        }
+        input::placeholder {
+            color: blue;
+        }
+        
     </style>
 </head>
 <body>
@@ -44,29 +72,29 @@
     <main>
         <h1 class="titulo" >Olá, seja muito bem vindo(a) Pokémon-SENAI!</h1>
         <div><h2 class="letra" style="font-size: 30px;">Contato:</h2></div>
-        <fieldset class="campo">
-            <legend><h2>Campo de Preenchimento</h2></legend>
-            <p style="font-size: 20px;"><strong>Todos os campos com * precisam ser preenchidos</strong></p>
+        <div class="campo">
+            <h2 class="camp-preenchimento">Campo de Preenchimento</h2>
+            <p class="aviso" style="font-size: 15px;"><strong>(Todos os campos com * precisam ser preenchidos)</strong></p>
             <h3><label for="nome">Nome: *</label></h3>
-            <input type="text" name="nome" id="nome" required>
+            <input class="nom" type="text" name="nome" id="nome" required>
             <br>
 
             <h3><label for="email">E-Mail: *</label></h3>
-            <input type="email" name="email" id="email" required>
+            <input class="nom" type="email" name="email" id="email" required>
             <br>
 
             <h3><label for="assunto">Assunto: *</label><br>
-                <select name="assunto">
+                <select style="border: none;" name="assunto">
                     <option value="sug">Sugestão</option>
                     <option value="cri">Crítica</option>
                     <option value="duv">Dúvidas</option>
                 </select>
             </h3>
 
-            <textarea placeholder="Digite aqui:" rows="5" cols="50"></textarea>
+            <textarea style="background-color: #AF601A; font-family: 'Franklin Gothic Medium' sans-serif;" placeholder="Digite aqui:" rows="5" cols="50"></textarea>
             <br>
             <input type="button" value="Enviar">
-        </fieldset>
+        </div>
 
         <footer>
             <address>
