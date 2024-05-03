@@ -29,10 +29,11 @@ main{
 
 .topo {
     background-image: url(imagens/raykuza2.jpg);
-    background-position-y: bottom;
+    
     background-repeat: no-repeat;
-    background-position-x: right;
+    
     height: 250px;
+    width: 100% 120%;
 }
 
 .nave{
