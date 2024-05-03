@@ -1,6 +1,7 @@
+
 body{
-    font-family: 'roboto', sans-serif;
-    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(imagens/grama.jpg);
 }
 
 *{ 
@@ -28,13 +29,13 @@ main{
 }
 
 .topo {
-    background-image: url(imagens/raykuza2.jpg);
-    
+    background-image: url(imagens/raygif.gif);
+    	padding-bottom: 160px;		
     background-repeat: no-repeat;
-    
-    height: 250px;
-    width: 100% 120%;
+   background-size: 100% 100%;
+   margin-bottom: 50px;
 }
+
 
 .nave{
     display: flex;
@@ -127,7 +128,8 @@ main{
 }
 
 .textprod {
-font-size: 20px;
+font-size: 25px;
+color: rgb(0, 0, 0);
 }
 
 .botao {
@@ -146,12 +148,15 @@ font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding: 3px;
+    text-align: center;
+    
  
 }
 .texto2{ 
-    font-size: 25px;
+    font-size: 30px;
     padding: 3px;
     text-align: center;
+    color: #e00f3d;
     
     
 }
