@@ -29,11 +29,13 @@ main{
 }
 
 .topo {
-    background-image: url(imagens/raygif.gif);
+    background-image: url(imagens/correr.gif);
     	padding-bottom: 160px;		
     background-repeat: no-repeat;
    background-size: 100% 100%;
    margin-bottom: 50px;
+   box-shadow: 10px 10px darkred;
+   border: outset darkred 15px;
 }
 
 
@@ -133,12 +135,25 @@ color: rgb(0, 0, 0);
 }
 
 .botao {
-    background-color: chocolate;
+    background-color: #a6a6a6;
     border-radius: 10px;
     padding: 4px 10px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 20px;
+   
+    
 
+}
+.botao:hover {
+    background-color: rgb(109, 98, 98);
+    color: rgb(17, 11, 11);
+    box-shadow: 0 3px 20px #131010;
+}
+.botao:active {
+    background-color: #b6a9a9;
+    box-shadow: 0 3px  #161010;
+    transform: translateY(4px);
 }
 /*Produtos*/
 
@@ -187,9 +202,10 @@ color: rgb(0, 0, 0);
 
 .rodape {
     padding: 30px;
-    background-color: #ffe545;
+    background-color: #aa1010;
     text-align: center;
     font-size: 30px;
+
 }
 
 /*Responsabilidade*/
