@@ -9,7 +9,7 @@
         .campo {
             background-color: darkgoldenrod;
             margin: 20px;
-            padding: 20px;
+            padding: 70px 20px 70px 20px;
             box-shadow: 10px 10px darkred;
             border: outset darkred 15px;
         }
@@ -23,9 +23,15 @@
         }
         .camp-preenchimento {
             padding-bottom: 15px;
+            font-size: 40px;
+            position: relative;
+            bottom: 35px;
         }
         .aviso {
             padding-bottom: 15px;
+            font-size: 15px;
+            position: relative;
+            bottom: 20px;
         }
         .letra {
             padding-left: 18px;
@@ -36,7 +42,12 @@
         input::placeholder {
             color: blue;
         }
-        
+        .botao {
+            position: relative;
+            top: 30px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -74,7 +85,8 @@
         <div><h2 class="letra" style="font-size: 30px;">Contato:</h2></div>
         <div class="campo">
             <h2 class="camp-preenchimento">Campo de Preenchimento</h2>
-            <p class="aviso" style="font-size: 15px;"><strong>(Todos os campos com * precisam ser preenchidos)</strong></p>
+            <div></div>
+            <p class="aviso"><strong>(Todos os campos com * precisam ser preenchidos)</strong></p>
             <h3><label for="nome">Nome: *</label></h3>
             <input class="nom" type="text" name="nome" id="nome" required>
             <br>
@@ -93,7 +105,7 @@
 
             <textarea style="background-color: #AF601A; font-family: 'Franklin Gothic Medium' sans-serif;" placeholder="Digite aqui:" rows="5" cols="50"></textarea>
             <br>
-            <input type="button" value="Enviar">
+            <input class="botao" type="button" value="Enviar">
         </div>
 
         <footer class="rodape">
