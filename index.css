@@ -105,7 +105,7 @@ main{
 .prodtit{
 
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px;
     
 
@@ -151,13 +151,13 @@ color: rgb(0, 0, 0);
 
 }
 .botao:hover {
-    background-color: rgb(109, 98, 98);
+    background-color: #b6a9a9;
     color: rgb(17, 11, 11);
     box-shadow: 0 3px 20px #131010;
 }
 .botao:active {
     background-color: #b6a9a9;
-    box-shadow: 0 3px  #161010;
+    box-shadow: 0 3px  #000000;
     transform: translateY(4px);
 }
 /*Produtos*/
@@ -166,7 +166,7 @@ color: rgb(0, 0, 0);
 
 .texto {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     padding: 3px;
     text-align: center;
     
@@ -205,9 +205,17 @@ color: rgb(0, 0, 0);
 }
 .t1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     padding: 5px;
+    color: red;
+}
+.t2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
 }
 
 .vendas2 {
