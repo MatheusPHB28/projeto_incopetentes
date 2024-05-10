@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="sobre_resp.css">
     <style>
         .principal {
             padding-bottom: 30px;
@@ -33,15 +34,6 @@
         }
         .quadro {
             background-color: darkgoldenrod;
-            padding: 5px;
-            margin: 10px;
-            box-shadow: 10px 10px darkred;
-            border: outset darkred 15px;
-        }
-        .corpo {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr;
         }
         .desc-valores {
             padding-bottom: 30px;
@@ -51,49 +43,23 @@
             font-size: 22px;
             color: rgb(0, 0, 0);
             font-family: 'Roboto', sans-serif;
-        }
-        .social {
-            height: 50px;
-            width: 50px;
-            margin-left: auto;
-            position: relative;
-            bottom: 65px;
-            right: 400px;
-        }
-
-        .seta {
-            margin-left: auto;
-            right: 450px;
-            bottom: 32px;
-            position: relative;
-            font-size: 30px;
-        }
+        }             
         .marca {
             font-size: 40px;
             position: relative;
             bottom: 20px;
         }
-        @media(max-width: 973px) {
-            .corpo {
-                display: flex;
-                flex-direction: column;
-            }
-            .pikachu {
-                margin: auto;
-            }
-            .pikachuu {
-                display: flex;
-                align-items: center;
-            }
-            .itens a {
-                font-size: 25px;
-            }
-            .nave {
-                padding: 0;
-            }
-            main {
-                padding: 0;
-            }
+        .pikachu {
+            position: relative;
+            left: 144px;
+            bottom: 40px;
+        }
+       
+        .frasefim{
+            color: rgb(0, 0, 0);
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            bottom: 45px;
         }
     </style>
 </head>
@@ -146,31 +112,35 @@
                 <p class="subtopico">Nossa missão é trazer a magia de Pokémon para a vida dos treinadores, oferecendo produtos de qualidade e uma experiência que celebra a paixão pela jornada Pokémon.</p>
             </div>
 
-            <div style="margin-right: 20px;" class="quadro">
+            <div  class="quadro">
                 <h2 class="topico"> Nossos valores</h2>
                 <h3 class="subtopico">• Integridade</h3>
                 <p class="desc-valores">Comprometidos com a excelência e a autenticidade, garantimos a integridade de cada produto Pokémon em nossa loja.</p>
                 <h3 class="subtopico">• Qualidade</h3>
                 <p class="desc-valores">Na nossa loja, a qualidade é a nossa marca registrada. Cada produto é cuidadosamente selecionado para garantir a autenticidade e a satisfação dos nossos clientes</p>
-                <h3 class="subtopico">• Inovação</h3>
             </div>
         </div>
         <br>
 
     </main>
 
-    <footer class="rodape">
-        <div class="final">
-            <p class="descricao-rede">Facebook, para ficar por dentro de nossas novidades e atualizações</p>
-            <strong class="seta">➔</strong>   <a class="social" href="https://www.facebook.com/groups/namoroeamizadessinceras/?ref=share&mibextid=KtfwRi"> <img class="rede" src="imagens/facebook.svg" alt="facebook-logo"></a>
-
-            <p class="descricao-rede">Instagram, para ficar por dentro de nossas novidades e atualizações</p>
-            <strong class="seta">➔</strong>   <a class="social" href="https://www.instagram.com/olinadhoward?igsh=MTRxZXRwbXduMjE1dQ=="> <img class="rede" src="imagens/icons8-instagram-logo.svg" alt="instagram-logo"></a>
-
-            <p class="descricao-rede">Youtube, para ver as prévias de nossos mais novos produtos que estão para serem lançados </p>
-          <strong class="seta">➔</strong>   <a class="social" href="https://www.youtube.com/@ManoelGomesOfficial"> <img class="rede" src="imagens/youtube.svg" alt="youtube-logo"><a>
-            <p class="marca">© 2024 SENAI-Pokébolas, Inc.</p>
-        </div>
-</footer>
+    
+        <footer>
+            <div class="final">
+                <p class="frasefim">Chegamos ao fim de nosso site, para ficar por dentro de notícias e atualizações de nossos produtos, 
+                confira nossas redes sociais!</p>
+                <div class="fimimg">
+                    <a href="https://www.facebook.com/groups/namoroeamizadessinceras/?ref=share&mibextid=KtfwRi"> <img src="imagens/facebook.svg" alt="facebook-logo"></a>
+            
+                    <a href="https://www.instagram.com/olinadhoward?igsh=MTRxZXRwbXduMjE1dQ=="> <img src="imagens/icons8-instagram-logo.svg" alt="instagram-logo"></a>
+    
+                    <a href="https://www.youtube.com/@ManoelGomesOfficial"> <img src="imagens/youtube.svg" alt="youtube-logo"><a>
+                    
+                </div>   
+        
+            </div>
+              
+                
+        </footer>
 </body>
 </html>

@@ -35,6 +35,9 @@
         }
         .letra {
             padding-left: 18px;
+            text-align: center;
+            color: white;
+            background-color: darkred;
         }
         .topo {
             border: darkred solid 10px;
@@ -47,6 +50,7 @@
             top: 30px;
         }
 
+        .titulo {text-align: center;}
 
     </style>
 </head>
@@ -81,7 +85,7 @@
     </header>
 
     <main>
-        <h1 class="titulo" >Olá, seja muito bem vindo(a) Pokémon-SENAI!</h1>
+        <h2 class="titulo" >Olá, seja muito bem vindo(a) Pokémon-SENAI!</h2>
         <div><h2 class="letra" style="font-size: 30px;">Contato:</h2></div>
         <div class="campo">
             <h2 class="camp-preenchimento">Campo de Preenchimento</h2>
@@ -108,19 +112,44 @@
             <input class="botao" type="button" value="Enviar">
         </div>
 
-        <footer class="rodape">
-            <div class="final">
-                <p class="descricao-rede">Facebook, para ficar por dentro de nossas novidades e atualizações</p>
-                <strong class="seta">➔</strong>   <a class="social" href="https://www.facebook.com/groups/namoroeamizadessinceras/?ref=share&mibextid=KtfwRi"> <img class="rede" src="imagens/facebook.svg" alt="facebook-logo"></a>
-    
-                <p class="descricao-rede">Instagram, para ficar por dentro de nossas novidades e atualizações</p>
-                <strong class="seta">➔</strong>   <a class="social" href="https://www.instagram.com/olinadhoward?igsh=MTRxZXRwbXduMjE1dQ=="> <img class="rede" src="imagens/icons8-instagram-logo.svg" alt="instagram-logo"></a>
-    
-                <p class="descricao-rede">Youtube, para ver as prévias de nossos mais novos produtos que estão para serem lançados </p>
-              <strong class="seta">➔</strong>   <a class="social" href="https://www.youtube.com/@ManoelGomesOfficial"> <img class="rede" src="imagens/youtube.svg" alt="youtube-logo"><a>
-                <p class="marca">© 2024 SENAI-Pokébolas, Inc.</p>
-            </div>
-        </footer>
+        <style>
+
+  
+            .frasefim{
+                font-size: 40px;
+                color: rgb(0, 0, 0);
+                font-family: 'Roboto', sans-serif;
+                position: relative;
+            bottom: 120px;
+        
+            }
+        
+            
+            
+        .fimimg{
+            position: relative;
+            top: 130px;
+            
+        }
+            
+        </style>
+            <footer>
+                <div class="final">
+                    <p class="frasefim">Chegamos ao fim de nosso site, para ficar por dentro de notícias e atualizações de nossos produtos, 
+                    confira nossas redes sociais!</p>
+                    <div class="fimimg">
+                        <a href="https://www.facebook.com/groups/namoroeamizadessinceras/?ref=share&mibextid=KtfwRi"> <img src="imagens/facebook.svg" alt="facebook-logo"></a>
+            
+                        <a href="https://www.instagram.com/olinadhoward?igsh=MTRxZXRwbXduMjE1dQ=="> <img src="imagens/icons8-instagram-logo.svg" alt="instagram-logo"></a>
+        
+                        <a href="https://www.youtube.com/@ManoelGomesOfficial"> <img src="imagens/youtube.svg" alt="youtube-logo"><a>
+                        
+                    </div>   
+            
+                </div>
+                  
+                    
+            </footer>
     </main>
 </body>
 </html>

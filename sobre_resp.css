@@ -1,0 +1,117 @@
+@media(max-width: 321px) {
+    .topo {
+        width: 320px;
+    }
+    .zoomlogotipo {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 80px;
+        bottom: 10px;
+    }
+    .lista {
+        padding: 0;
+        margin: 0;
+    }
+    .itens {
+        margin: 0;
+        position: relative;
+        top: 190px;
+        right: 80px;
+        width: 67px;
+        padding: 0;
+        text-align: center;
+    }
+    .lista a {
+        font-size: 11px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .quadro {
+        width: 320px;
+        height: 610px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: solid darkred 10px;
+    }
+    .pikachu {
+        height: 110px;
+        width: 110px;
+    }
+    .pikachuu {
+        position: relative;
+        right: 60px;
+    }
+    .frasefim {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .fimimg {
+        position: relative;
+        top: 45px;
+    }
+}
+
+@media(max-width: 376px) {
+    .zoomlogotipo {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 80px;
+        bottom: 10px;
+    }
+    .lista {
+        padding: 0;
+    }
+    .itens {
+        margin: 0;
+        position: relative;
+        top: 190px;
+        right: 80px;
+        width: 67px;
+        padding: 0;
+        text-align: center;
+    }
+    a {
+        font-size: 11px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .quadro {
+        width: 320px;
+        height: 610px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: solid darkred 10px;
+    }
+    .pikachu {
+        height: 110px;
+        width: 110px;
+    }
+    .pikachuu {
+        position: relative;
+        right: 60px;
+    }
+    .frasefim {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .fimimg {
+        position: relative;
+        top: 45px;
+    }
+}
