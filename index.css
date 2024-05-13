@@ -150,7 +150,7 @@ main{
 }
 
 .textprod {
-font-size: 25px;
+font-size: 35px;
 color: rgb(0, 0, 0);
 }
 
@@ -189,7 +189,7 @@ color: rgb(0, 0, 0);
  
 }
 .texto2{ 
-    font-size: 30px;
+    font-size: 35px;
     padding: 3px;
     text-align: center;
     color: black;
@@ -220,7 +220,6 @@ color: rgb(0, 0, 0);
     height: 400px;
 }
 .t1 {
-    font-family: 'Pixelify SAns', sans-serif;
     font-size: 50px;
     text-align: center;
     padding: 5px;
@@ -230,7 +229,6 @@ color: rgb(0, 0, 0);
     
 }
 .t2{
-    font-family: 'Pixelify SAns', sans-serif;
     font-size: 40px;
     text-align: center;
     padding: 20px;
