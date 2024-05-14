@@ -7,23 +7,24 @@
         width: 80px;
         position: relative;
         left: 80px;
-        bottom: 10px;
-    }
-    .lista {
-        padding: 0;
-        margin: 0;
+        top: 10px;
     }
     .itens {
         margin: 0;
         position: relative;
-        top: 190px;
-        right: 80px;
-        width: 67px;
+        right: 50px;
         padding: 0;
         text-align: center;
+        color: red;
+        font-size: 15px;
+        padding-right: 10px;
     }
-    .lista a {
-        font-size: 11px;
+    .lista {
+        font-size: 20px;
+        width: 70px;
+        display: flex;
+        position: relative;
+        right: 80px;
     }
     .corpo {
         display: grid;
@@ -38,7 +39,7 @@
         border: solid darkred 10px;
     }
     .pikachu {
-        height: 110px;
+        height: 270px;
         width: 110px;
     }
     .pikachuu {
@@ -57,30 +58,64 @@
         position: relative;
         top: 45px;
     }
+    .subtopico {
+        position: relative;
+        top: 25px;
+        font-size: 60px;
+    }
+    #topic1 {
+        position: relative;
+        top: 40px;
+        font-size: 50px;
+    }
+    #desc1 {
+        position: relative;
+        top: 40px;
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    #topic2 {
+        position: relative;
+        top: 150px;
+        font-size: 50px;
+    }
+    #desc2 {
+        position: relative;
+        top: 150px;
+        font-size: 20px;
+    }
+    #missao {
+        font-size: 35px;
+    }
 }
 
-@media(max-width: 376px) {
+@media(322px <= width <= 376px) {
+    .topo {
+        width: 320px;
+    }
     .zoomlogotipo {
         height: 80px;
         width: 80px;
         position: relative;
         left: 80px;
-        bottom: 10px;
-    }
-    .lista {
-        padding: 0;
+        top: 10px;
     }
     .itens {
         margin: 0;
         position: relative;
-        top: 190px;
-        right: 80px;
-        width: 67px;
+        right: 50px;
         padding: 0;
         text-align: center;
+        color: red;
+        font-size: 15px;
+        padding-right: 10px;
     }
-    a {
-        font-size: 11px;
+    .lista {
+        font-size: 20px;
+        width: 70px;
+        display: flex;
+        position: relative;
+        right: 80px;
     }
     .corpo {
         display: grid;
@@ -95,7 +130,7 @@
         border: solid darkred 10px;
     }
     .pikachu {
-        height: 110px;
+        height: 270px;
         width: 110px;
     }
     .pikachuu {
@@ -113,5 +148,34 @@
     .fimimg {
         position: relative;
         top: 45px;
+    }
+    .subtopico {
+        position: relative;
+        top: 25px;
+        font-size: 60px;
+    }
+    #topic1 {
+        position: relative;
+        top: 40px;
+        font-size: 50px;
+    }
+    #desc1 {
+        position: relative;
+        top: 40px;
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    #topic2 {
+        position: relative;
+        top: 150px;
+        font-size: 50px;
+    }
+    #desc2 {
+        position: relative;
+        top: 150px;
+        font-size: 20px;
+    }
+    #missao {
+        font-size: 35px;
     }
 }

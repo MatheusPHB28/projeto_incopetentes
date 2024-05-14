@@ -1,6 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
+#voltarAoTopo {
+    display: none; /* Inicialmente oculto até que a página seja rolada para baixo */
+    position: fixed; /* Mantém o botão fixo mesmo quando a página é rolada */
+    bottom: 350px; /* Distância em relação ao fundo da janela */
+    right: 50px; /* Distância em relação à borda direita da janela */
+    background-color: var(--gray); /* Cor de fundo do botão */
+    color: var(--blue); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0; /* Sem preenchimento interno */
+    cursor: pointer; /* Cursor do mouse muda para ponteiro ao passar sobre o botão */
+    border-radius: 50%; /* Borda arredondada para criar um botão circular */
+ }
 
 body{
     font-family: 'Jersey 10', sans-serif;
@@ -35,11 +47,11 @@ main{
 
 .topo {
     background-image: url(imagens/correr.gif);
-    	padding-bottom: 160px;		
+    padding-bottom: 160px;		
     background-repeat: no-repeat;
-   background-size: 100% 100%;
-   margin-bottom: 50px;
-   border: outset darkred 15px;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    border: outset darkred 15px;
 }
 
 
@@ -55,6 +67,7 @@ main{
     display: flex;
     align-items: center;
     margin: auto;
+    width: 70px;
 }
 
 .itens {
@@ -85,7 +98,6 @@ main{
 }
 .ptitulo {
     font-size: 50px;
-    
     padding: 15px;
     color: white;
     background-color: darkred;
@@ -120,9 +132,6 @@ main{
     background-color:darkred;
     color: white;
     margin-top: 15px;
-   
-
-    
 
 }
 
@@ -180,8 +189,7 @@ color: rgb(0, 0, 0);
 
 
 .texto {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     padding: 3px;
     text-align: center;
     color: black;
