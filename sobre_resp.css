@@ -1,18 +1,21 @@
 @media(max-width: 321px) {
     .topo {
         width: 320px;
+        margin-bottom: 0px;
+    
     }
     .zoomlogotipo {
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
         position: relative;
-        left: 80px;
-        top: 10px;
+        right: 10px;
+        top: 7px;
     }
+    
     .itens {
         margin: 0;
         position: relative;
-        right: 50px;
+        right: 30px;
         padding: 0;
         text-align: center;
         color: red;
@@ -100,6 +103,7 @@
         left: 80px;
         top: 10px;
     }
+    
     .itens {
         margin: 0;
         position: relative;
@@ -179,3 +183,45 @@
         font-size: 35px;
     }
 }
+
+@media(1024px <= width <= 1440px) {
+    nav {
+        position: relative;
+        right: 190px;
+        bottom: 110px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      
+
+    }
+    .quadro {
+        border: outset darkred 15px;
+        padding: 20px;
+        margin: 10px;
+    }
+        .pikachuu {
+            position: relative;
+            right: 90px;
+    }
+    .topo {
+        margin-bottom: 20px;
+      
+    }
+    .itens {
+        position: relative;
+        right: 120px;
+    }
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
