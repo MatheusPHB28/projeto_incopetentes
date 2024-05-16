@@ -1,4 +1,4 @@
-@media(max-width: 321px) {
+@media(max-width: 320px) /*OK*/ {
     .topo {
         width: 320px;
         margin-bottom: 0px;
@@ -39,15 +39,16 @@
         height: 610px;
         padding: 5px;
         margin-bottom: 10px;
-        border: solid darkred 10px;
     }
     .pikachu {
         height: 270px;
         width: 110px;
     }
     .pikachuu {
+        display: flex;
+        justify-content: center;
         position: relative;
-        right: 60px;
+        bottom: 40px;
     }
     .frasefim {
         text-align: center;
@@ -92,9 +93,10 @@
     }
 }
 
-@media(322px <= width <= 376px) {
+@media(321px <= width <= 375px) /*OK*/ {
     .topo {
-        width: 320px;
+        width: 100%;
+
     }
     .zoomlogotipo {
         height: 80px;
@@ -122,24 +124,31 @@
         right: 80px;
     }
     .corpo {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .quadro {
         width: 320px;
         height: 610px;
         padding: 5px;
         margin-bottom: 10px;
-        border: solid darkred 10px;
+    }
+    .quadro2 {
+        width: 320px;
+        height: 402px;
+        padding: 5px;
+        margin-bottom: 10px;
     }
     .pikachu {
         height: 270px;
         width: 110px;
     }
     .pikachuu {
+        display: flex;
+        justify-content: center;
         position: relative;
-        right: 60px;
+        bottom: 50px;
     }
     .frasefim {
         text-align: center;
@@ -154,8 +163,6 @@
         top: 45px;
     }
     .subtopico {
-        position: relative;
-        top: 25px;
         font-size: 60px;
     }
     #topic1 {
@@ -184,6 +191,82 @@
     }
 }
 
+@media(425px <= width <= 739px) /*OK*/ {
+    .lista {
+        padding: 0;
+    }
+    .itens {
+        margin: 0;
+        position: relative;
+        right: 150px;
+        font-size: 20px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .quadro {
+        margin: 10px 0;
+    }
+    .fimimg {
+        position: relative;
+        top: 50px;
+        margin: 0 5px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .frasefim {
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media(740px <= width <= 768px) /*OK*/ {
+    .lista {
+        padding: 0;
+    }
+    .itens {
+        margin: 0;
+        position: relative;
+        right: 150px;
+        font-size: 20px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .pikachu {
+        width: 204px;
+    }
+    .quadro {
+        margin: 10px 5px;
+    }
+    .fimimg {
+        position: relative;
+        top: 50px;
+        margin: 0 5px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .frasefim {
+        position: relative;
+        bottom: 40px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+
+
 @media(1024px <= width <= 1440px) {
     nav {
         position: relative;
@@ -198,13 +281,12 @@
 
     }
     .quadro {
-        border: outset darkred 15px;
         padding: 20px;
         margin: 10px;
     }
-        .pikachuu {
-            position: relative;
-            right: 90px;
+    .pikachuu {
+        display: flex;
+        justify-content: center;
     }
     .topo {
         margin-bottom: 20px;
@@ -224,4 +306,172 @@
         top: 110px;
     }
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+@media(940px <= width <= 1023px) {
+    .nave {
+      text-align: center;
+      position: relative;
+      bottom: 80px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .lista {
+        margin: 0;
+    width: 0;
+    }
+    .itens {
+    margin: 15px 60px 15px 60px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+    }  
+
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .quadro {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+}
+
+@media (840px <= width <= 939px) {
+    .nave {
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+      }
+
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .lista {
+        margin: 0;
+        width: 0px;
+    }
+    .itens {
+        margin: 15px 60px 15px 60px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+    }  
+
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .quadro {
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+}
+
+@media (784px <= width <= 839px) {
+    .nave {
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+      }
+
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .lista {
+        margin: 0;
+        width: 0px;
+    }
+    .itens {
+        margin: 15px 38px 15px 38px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+    } 
+    .pikachu {
+        width: 220px;
+        height: 275px;
+    } 
+
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .quadro {
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+}
+
+@media (769px <= width <= 783px) {
+
+.quadro{
+    margin-bottom: 10px;
+}
+    .itens {
+        margin: 15px 15px 15px 15px;
+    }
+    .lista {
+        margin: auto;
+        width: 0px;
+    } 
+
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+    .pikachu {
+        width: 90px;
+        height: 90px;
+    }
+}
