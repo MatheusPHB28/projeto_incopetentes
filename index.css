@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 #voltarAoTopo {
     display: none; /* Inicialmente oculto até que a página seja rolada para baixo */
@@ -15,7 +15,7 @@
  }
 
 body{
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-image: url(imagens/grama.jpg);
 
 }
@@ -59,15 +59,15 @@ main{
     display: flex;
     align-items: center;
     padding: 10px;
-  
-   
 }
 
 .lista {
     display: flex;
     align-items: center;
-    margin: auto;
-    width: 70px;
+    margin-left: auto;
+margin-right: auto;
+position: relative;
+right: 100px;
 }
 
 .itens {
@@ -185,10 +185,57 @@ padding-bottom: 20px;
     box-shadow: 0 3px  #000000;
     transform: translateY(4px);
 }
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+@media(1024px <= width <= 1440px) {
+    nav {
+        position: relative;
+        right: 190px;
+        bottom: 110px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      
+
+    }
+    .quadro {
+        padding: 20px;
+        margin: 10px;
+    }
+    .pikachuu {
+        display: flex;
+        justify-content: center;
+    }
+    .topo {
+        margin-bottom: 20px;
+      
+    }
+    .itens {
+        position: relative;
+        right: 120px;
+    }
+    .frasefim {
+        position: relative;
+        bottom: 80px;
+        font-size: 30px;
+    }
+    .fimimg {
+        position: relative;
+        top: 110px;
+    }
+}
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
 /*Produtos*/
-
-
-
 .texto {
     font-size: 35px;
     padding: 3px;
@@ -277,18 +324,3 @@ height: 30px;
 }
 /*Responsabilidade*/
 
-@media(max-width: 425px) {
-    li {
-        font-size: 10px;
-    }
-    .prods {
-        display: flex;
-        flex-direction: column;
-    }
-    .titulo {
-        text-align: center;
-    }
-    .ptitulo {
-        text-align: center;
-    }
-}

@@ -1,3 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+#voltarAoTopo {
+    display: none; /* Inicialmente oculto até que a página seja rolada para baixo */
+    position: fixed; /* Mantém o botão fixo mesmo quando a página é rolada */
+    bottom: 350px; /* Distância em relação ao fundo da janela */
+    right: 50px; /* Distância em relação à borda direita da janela */
+    background-color: var(--gray); /* Cor de fundo do botão */
+    color: var(--blue); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0; /* Sem preenchimento interno */
+    cursor: pointer; /* Cursor do mouse muda para ponteiro ao passar sobre o botão */
+    border-radius: 50%; /* Borda arredondada para criar um botão circular */
+ }
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-image: url(imagens/grama.jpg);
+
+}
+
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+main{
+    padding: 0px;
+}
+
+.zoomlogotipo{
+        transition: transform 0.3s ease;   
+        margin-left: 15px;     
+}        
+
+.zoomlogotipo:hover{
+    transform: scale(1.5);
+    
+}
+
+.topo {
+    background-image: url(imagens/correr.gif);
+    padding-bottom: 160px;		
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    border: outset darkred 15px;
+}
+
+
+.nave{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+margin-right: auto;
+
+}
+
+.itens {
+    justify-content: space-between;
+    padding: 10px;
+    margin: 40px;
+    font-size: 30px;
+}
+
+.titulo{
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    background-color: darkred;
+    text-transform: uppercase;
+  
+}
+
+.titulo2{
+    
+    font-size: 35px;
+    padding: 20px;
+}
+
+.titulop {
+    
+    font-size: 20px;
+}
+.ptitulo {
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+    background-color: darkred;
+}
+.final {
+    background-image: url(imagens/background-image-gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      text-align: center;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      padding: 125px;
+     border: outset darkred 15px;
+}
+
 @media(max-width: 320px) /*OK*/ {
     .topo {
         width: 320px;
@@ -269,9 +383,7 @@
 
 @media(1024px <= width <= 1440px) {
     nav {
-        position: relative;
-        right: 190px;
-        bottom: 110px;
+   
     }
     .corpo {
         display: grid;
@@ -473,5 +585,20 @@
     .pikachu {
         width: 90px;
         height: 90px;
+    }
+}
+
+@media(1441px <= width <= 7680px) {
+    .itens {
+        position: relative;
+        right: 105px;
+    }
+    .corpo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .quadro {
+        margin: 5px;
     }
 }
