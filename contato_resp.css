@@ -2,7 +2,7 @@
     background-image: url(imagens/background-image-gif.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-      text-align: center;
+    text-align: center;
       margin-top: 15px;
       display: flex;
       flex-direction: column;
@@ -10,7 +10,7 @@
      border: outset darkred 15px;
 }     
 
-@media(320px <= width <= 425px) {
+@media(320px <= width <= 769px) {
     .itens {
         font-size: 10px;
         padding: 10px;
@@ -32,7 +32,37 @@
     .area-texto {
         width: 210px;
     }
+    .frasefim {
+        text-align: center;
+        width: 100%;
+        font-size: 10px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .fimimg {
+        position: relative;
+        bottom: 0px;
+    }
 
 }
+@media(425px <= width <=519px) {
+    
+}
+@media(1024px <= width <= 1440px) {
+.aviso{
+    padding-bottom: 18px;
+    padding-left: 440px;
+    font-size: 20px;
+    }
+.camp-preenchimento {
+    padding-bottom: 30px;
+    padding-left: 550px;
+}
+.campo{
+padding: 40px 20px 50px 20px;
+}
+.bagulho {
 
-/*até 889px*/
+}
+}
