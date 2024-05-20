@@ -75,6 +75,7 @@ right: 100px;
     padding: 10px;
     margin: 40px;
     font-size: 30px;
+    text-align: center;
 }
 
 .titulo{
@@ -186,48 +187,6 @@ padding-bottom: 20px;
     transform: translateY(4px);
 }
 /*////////////////////////////////////////////////////////////////////////////////////*/
-
-@media(1024px <= width <= 1440px) {
-    nav {
-        position: relative;
-        right: 190px;
-        bottom: 110px;
-    }
-    .corpo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-      
-
-    }
-    .quadro {
-        padding: 20px;
-        margin: 10px;
-    }
-    .pikachuu {
-        display: flex;
-        justify-content: center;
-    }
-    .topo {
-        margin-bottom: 20px;
-      
-    }
-    .itens {
-        position: relative;
-        right: 120px;
-    }
-    .frasefim {
-        position: relative;
-        bottom: 80px;
-        font-size: 30px;
-    }
-    .fimimg {
-        position: relative;
-        top: 110px;
-    }
-}
-
-
 
 
 

@@ -207,113 +207,75 @@ margin-right: auto;
     }
 }
 
-@media(321px <= width <= 375px) /*OK*/ {
-    .topo {
-        width: 100%;
-
-    }
-    .zoomlogotipo {
-        height: 80px;
-        width: 80px;
-        position: relative;
-        left: 80px;
-        top: 10px;
-    }
-    
+@media(375px <= width <= 424px) /**/ {
     .itens {
         margin: 0;
         position: relative;
-        right: 50px;
+        right: 30px;
         padding: 0;
         text-align: center;
-        color: red;
         font-size: 15px;
         padding-right: 10px;
+    
+        
     }
-    .lista {
-        font-size: 20px;
-        width: 70px;
-        display: flex;
-        position: relative;
-        right: 80px;
-    }
-    .corpo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .quadro {
-        width: 320px;
-        height: 610px;
-        padding: 5px;
-        margin-bottom: 10px;
-    }
-    .quadro2 {
-        width: 320px;
-        height: 402px;
-        padding: 5px;
-        margin-bottom: 10px;
-    }
-    .pikachu {
-        height: 270px;
-        width: 110px;
-    }
-    .pikachuu {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: 50px;
-    }
-    .frasefim {
-        text-align: center;
-        width: 100%;
-        font-size: 20px;
-    }
-    .final {
+    .final{
         padding: 50px;
     }
-    .fimimg {
-        position: relative;
-        top: 45px;
+    .frasefim{
+        font-size: 20px; 
+        text-align: center;
+        margin-bottom:15px;
+        
     }
-    .subtopico {
-        font-size: 60px;
+    .fimimg{
+        
     }
-    #topic1 {
+}
+@media(520px <= width <=604px) {
+    .nave{
         position: relative;
-        top: 40px;
-        font-size: 50px;
+        bottom: 80px;
     }
-    #desc1 {
-        position: relative;
-        top: 40px;
+    .lista {
+        padding: 0;
+        margin-left: 60px;
+    }
+    .itens {
+        margin: 15px 28px 15px 16px;
         font-size: 20px;
-        padding-bottom: 0;
-    }
-    #topic2 {
-        position: relative;
-        top: 150px;
-        font-size: 50px;
-    }
-    #desc2 {
-        position: relative;
-        top: 150px;
-        font-size: 20px;
-    }
-    #missao {
-        font-size: 35px;
+        text-align: center;
     }
 }
 
-@media(425px <= width <= 739px) /*OK*/ {
+@media(425px <= width <=519px) {
+    .nave{
+        position: relative;
+        bottom: 80px;
+    }
     .lista {
         padding: 0;
+        margin-left: 90px;
     }
     .itens {
-        margin: 0;
-        position: relative;
-        right: 150px;
+        margin: 15px 0px 15px 0px;
         font-size: 20px;
+        text-align: center;
+    }
+}
+@media(605px <= width <= 739px) /*OK*/ {
+    .nave{
+        position: relative;
+        bottom: 80px;
+    }
+    .lista {
+        padding: 0;
+        margin-left: 100px;
+    }
+    .itens {
+        margin: 15px 0px 15px 0px;
+        font-size: 20px;
+        text-align: center;
     }
     .pikachuu {
         display: flex;
@@ -339,14 +301,19 @@ margin-right: auto;
 }
 
 @media(740px <= width <= 768px) /*OK*/ {
+    .nave{
+        margin: 15px 15px 15px 100px;
+        position: relative;
+        bottom: 80px;
+    
+    }
     .lista {
         padding: 0;
     }
     .itens {
         margin: 0;
-        position: relative;
-        right: 150px;
         font-size: 20px;
+        margin: 15px 15px 15px 15px;
     }
     .pikachuu {
         display: flex;
@@ -374,8 +341,7 @@ margin-right: auto;
     }
     .corpo {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+
     }
 }
 
@@ -404,10 +370,10 @@ margin-right: auto;
         margin-bottom: 20px;
       
     }
-    .itens {
-        position: relative;
-        right: 120px;
-    }
+   .itens {
+    position: relative;
+        bottom: 80px;
+   }
     .frasefim {
         position: relative;
         bottom: 80px;
@@ -424,6 +390,7 @@ margin-right: auto;
       text-align: center;
       position: relative;
       bottom: 80px;
+      margin-left : 5px;
     }
     .corpo {
         display: grid;
@@ -431,11 +398,11 @@ margin-right: auto;
         grid-template-rows: 1fr;
     }
     .lista {
-        margin: 0;
+        margin:10px;
     width: 0;
     }
     .itens {
-    margin: 15px 60px 15px 60px;
+        margin: 15px 38px 15px 38px;
     }
     .pikachuu {
         display: flex;
@@ -477,11 +444,11 @@ margin-right: auto;
         grid-template-rows: 1fr;
     }
     .lista {
-        margin: 0;
-        width: 0px;
+    
     }
     .itens {
-        margin: 15px 60px 15px 60px;
+        margin: 15px 19px 15px 33px;
+        font-size: 20px;
     }
     .pikachuu {
         display: flex;
@@ -497,6 +464,18 @@ margin-right: auto;
     .quadro {
         padding: 0px;
         margin: 5px;
+
+    }
+    .desc-valores{
+        margin-right: 10px;
+        margin-left: 14px;
+      font-size: 22px;
+
+    }
+    .subtopico {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 28px;
     }
 
     .frasefim {
@@ -508,6 +487,14 @@ margin-right: auto;
         position: relative;
         top: 110px;
     }
+    .subtitulo{
+        margin-top: 15px;
+    }
+    .desc {
+        margin-left: 15px;
+        margin-right: 15px;
+       
+    }
 }
 
 @media (784px <= width <= 839px) {
@@ -516,18 +503,21 @@ margin-right: auto;
         position: relative;
         bottom: 80px;
       }
-
+.itens{
+    margin: 15px 19px 15px 33px;
+}
     .corpo {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
     .lista {
-        margin: 0;
+        margin: 25px;
         width: 0px;
     }
     .itens {
-        margin: 15px 38px 15px 38px;
+        margin: 15px 12px 15px 25px;
+        text-align: center;
     }
     .pikachuu {
         display: flex;
@@ -540,8 +530,6 @@ margin-right: auto;
 
     .corpo {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
     }
 
     .quadro {
@@ -561,7 +549,13 @@ margin-right: auto;
 }
 
 @media (769px <= width <= 783px) {
-
+    .nave{
+        position: relative;
+        bottom: 50px;
+}
+a {
+    font-size: 25px;
+}
 .quadro{
     margin-bottom: 10px;
 }
@@ -569,9 +563,12 @@ margin-right: auto;
         margin: 15px 15px 15px 15px;
     }
     .lista {
-        margin: auto;
-        width: 0px;
+        margin: 10px;
     } 
+
+    .corpo {
+        display: grid;
+    }
 
     .frasefim {
         position: relative;
@@ -583,8 +580,13 @@ margin-right: auto;
         top: 110px;
     }
     .pikachu {
-        width: 90px;
-        height: 90px;
+        width: 400px;
+        position: relative;
+        left: 180px;
+    
+    }
+    .pikachuu{
+       
     }
 }
 
