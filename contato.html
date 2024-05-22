@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="contato_resp.css">
     <style>
         .campo {
-            background-color: darkgoldenrod;
-            margin: 20px;
+          background-image: url(imagens/tijolo.png);
+            margin: 40px 400px 40px 400px;
             padding: 70px 20px 70px 20px;
             box-shadow: 10px 10px darkred;
             border: outset darkred 15px;
+            text-align: center;
         }
+
         .nom {
             margin-bottom: 20px;
             background-color: transparent;
+            position: relative;
+            left: 20px;
             border:none;
             border-bottom: 1px solid black;
             outline: none;
@@ -24,11 +28,13 @@
         }
         .camp-preenchimento {
             padding-bottom: 15px;
+            padding-left:40px;
             position: relative;
-            bottom: 35px;
+            bottom: 40px;
         }
         .aviso {
             padding-bottom: 15px;
+            padding-left:40px;
             font-size: 15px;
             position: relative;
             bottom: 20px;
@@ -47,9 +53,16 @@
         }
         .botao {
             position: relative;
+            left: 40px;
             top: 30px;
         }
-
+       h3{
+        padding-left: 40px;
+       }
+       .area-texto {
+        position: relative;
+        left: 40px;
+       }
         .titulo {text-align: center;}
 
     </style>
@@ -86,7 +99,6 @@
             <h2 class="camp-preenchimento">Campo de Preenchimento</h2>
             <div></div>
 
-            <div class="bagulho">
             <p class="aviso"><strong>(Todos os campos com * precisam ser preenchidos)</strong></p>
             <h3><label for="nome">Nome: *</label></h3>
             <input class="nom" type="text" name="nome" id="nome" required>
@@ -103,11 +115,11 @@
                     <option value="duv">Dúvidas</option>
                 </select>
             </h3>
-            </div>
+     
             <textarea class="area-texto" style="background-color: #ffffff; font-family: 'Franklin Gothic Medium' sans-serif;" placeholder="Digite aqui:" rows="5" cols="50"></textarea>
             <br>
             <input class="botao" type="button" value="Enviar">
-            </div>
+   
         </div>
 
         <style>
